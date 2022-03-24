@@ -28,6 +28,18 @@ My personal interests include an active lifestyle, travel, foreign languages, ps
 * Stepik.ru - Программирование на Python
 ******
 ## Code
+function vowelOne(s){
+let vowels = ['a','e','i','o','u'];
+  let word = [];
+  s.split('').forEach((letter)=> {
+      if (vowels.indexOf(letter.toLowerCase()) === -1) {
+        word.push(0)
+      } else {
+        word.push(1)
+      };
+    });
+    return word.join('');
+  }
 *****
 ## Languages
 Russian - Fluent
